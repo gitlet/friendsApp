@@ -1,0 +1,36 @@
+// importing bourbon
+@import "bourbon/bourbon"
+// initial reset
+*
+  margin: auto
+  padding: 0
+body
+  font-family: 'Poiret One', cursive
+  header
+    background: tint(crimson, 45%)
+    padding: 20px
+    text-align: center
+    h1
+      letter-spacing: 10px
+      color: #fff
+      // font-weight: normal
+  .wrapper
+    position: absolute
+    // border: 1px solid #333
+    margin: auto
+    text-align: center
+    article
+      @include size(340px)
+      margin: 5px
+      padding: 5px
+      background: #1b466f
+      display: inline-block
+      text-align: center
+      color: whitesmoke
+      h2
+        position: relative
+        left: 0
+        right: 0
+        
+        background: brown
+        padding: 10px
